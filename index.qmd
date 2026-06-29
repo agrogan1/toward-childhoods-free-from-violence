@@ -1,0 +1,29 @@
+---
+title: "Toward Childhoods Free From Violence"
+subtitle: "50 Years of Research Tells Us to End Corporal Punishment" 
+author: 
+  - name: "Andy Grogan-Kaylor"
+    url: https://agrogan1.github.io/
+date: "today"
+format:
+  revealjs: 
+    scrollable: true
+    controls: true
+    controls-tutorial: true
+    slide-number: true
+    progress: true
+    transition: convex
+    transition-speed: slow
+    chalkboard: true
+    title-slide-attributes:
+      data-background-image: caregiving.png
+      data-background-size: contain
+      data-background-transition: fade
+      data-background-opacity: ".33"
+    view-distance: 10
+    mobile-view-distance: 10
+    css: toward-childhoods-free-from-violence.css
+bibliography: toward-childhoods-free-from-violence.bib
+csl: apa.csl
+from: markdown+emoji
+---
