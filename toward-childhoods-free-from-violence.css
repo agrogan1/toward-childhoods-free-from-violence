@@ -79,4 +79,8 @@ tbody tr:hover {
   background-color: darkred;
 }
 
-
+.leftjustify {
+  p { 
+    text-align: left; 
+  }
+}

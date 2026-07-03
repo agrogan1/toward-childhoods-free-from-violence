@@ -6,11 +6,11 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-b6a8276bf55561bdbc268162d41bd1f7.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.9.30">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-0815c480559380816a4d1ea211a47e91.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.7.29">
 
   <meta name="author" content="Andy Grogan-Kaylor">
-  <meta name="dcterms.date" content="2026-06-29">
+  <meta name="dcterms.date" content="2026-07-03">
   <title>Toward Childhoods Free From Violence</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -18,9 +18,6 @@
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reset.css">
   <link rel="stylesheet" href="index_files/libs/revealjs/dist/reveal.css">
   <style>
-    /* Default styles provided by pandoc.
-    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-    */
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
     div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -33,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-2740581606dc327e82f18f789b69d8a0.css">
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
   <link rel="stylesheet" href="toward-childhoods-free-from-violence.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -146,10 +143,41 @@
 </div>
 </div>
 
-  <p class="date">2026-06-29</p>
+  <p class="date">2026-07-03</p>
 </section>
-<section class="slide level2">
+<section id="acknowledgments" class="title-slide slide level1 center">
+<h1>Acknowledgments</h1>
+<ul>
+<li>Professor Julie Ma</li>
+<li>Professor Shawna Lee</li>
+<li>Professor Liz Gershoff</li>
+<li>Professor Emerita Joan Durant</li>
+<li>Professor George Holden</li>
+<li>Professors Jorge Cuartas</li>
+<li>Professor Dana McCoy</li>
+</ul>
+</section>
 
+<section id="what-this-talk-is-about." class="title-slide slide level1 leftjustify center">
+<h1>What this talk is about.</h1>
+<ul>
+<li>“Physical Discipline”</li>
+<li>“Corporal Punishment”</li>
+<li>“Spanking”</li>
+</ul>
+<p>All of these are roughly synonymous. They are widely used forms of discipline worldwide.</p>
+<p>There is a lot of research evidence around the use of spanking or physical punishment, but family decisions about whether to use physical punishment are often considered to be a personal matter.</p>
+</section>
+
+<section id="outline-of-the-talk" class="title-slide slide level1 center">
+<h1>Outline of the Talk</h1>
+<ul>
+<li>Trends in the research.<br>
+</li>
+<li>All of this conversation is nested in a global conversation.<br>
+</li>
+<li>I would like to end, where we should always end a discussion of these issues with a discussion of positive parenting. What can parents do in these situations?</li>
+</ul>
 
 </section>
     </div>
@@ -343,7 +371,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -417,14 +445,13 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-          const outerScaffold = trigger.parentElement.cloneNode(true);
-          const codeEl = outerScaffold.querySelector('code');
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
+            const codeEl = trigger.previousElementSibling.cloneNode(true);
+            for (const childEl of codeEl.children) {
+              if (isCodeAnnotation(childEl)) {
+                childEl.remove();
+              }
             }
-          }
-          return codeEl.innerText;
+            return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

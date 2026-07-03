@@ -27,3 +27,34 @@ bibliography: toward-childhoods-free-from-violence.bib
 csl: apa.csl
 from: markdown+emoji
 ---
+
+# Acknowledgments
+
+* Professor Julie Ma
+* Professor Shawna Lee
+* Professor Liz Gershoff
+* Professor Emerita Joan Durant
+* Professor George Holden
+* Professors Jorge Cuartas
+* Professor Dana McCoy 
+
+
+# What this talk is about. {.leftjustify}
+
+* "Physical Discipline"
+* "Corporal Punishment" 
+* "Spanking"
+
+All of these are roughly synonymous.  They are widely used forms of discipline worldwide.  
+
+There is a lot of research evidence around the use of spanking or physical punishment, but family decisions about whether to use physical punishment are often considered to be a personal matter.  
+
+# Outline of the Talk
+
+* Trends in the research.  
+* All of this conversation is nested in a global conversation.  
+* I would like to end, where we should always end a discussion of these issues, with a discussion of positive parenting.  What can parents do in these situations?  
+
+
+
+
