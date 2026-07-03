@@ -48,11 +48,13 @@ All of these are roughly synonymous.  They are widely used forms of discipline w
 
 There is a lot of research evidence around the use of spanking or physical punishment, but family decisions about whether to use physical punishment are often considered to be a personal matter.  
 
-## Outline of the Talk
+## Outline of the Talk {.incremental}
 
+::: {.incremental}
 * Trends in the research.  
 * All of this conversation is nested in a global conversation.  
 * I would like to end, where we should always end a discussion of these issues, with a discussion of positive parenting.  What can parents do in these situations?  
+:::
 
 ## How Spanking Feels to Children
 
@@ -64,8 +66,9 @@ Nadine Block, Center for Effective Discipline
 ![image from Nadine Block](NadineBlock2.png){width=45%}
 :::
 
-## Meta-Analysis of 50 Years of Research on Corporal Punishment {.smaller}
+## Meta-Analysis of 50 Years of Research on Corporal Punishment {.smaller .incremental}
 
+::: {.incremental}
 * Study of studies
 * We screened 1,574 articles
 * 50 years of research
@@ -75,6 +78,7 @@ Nadine Block, Center for Effective Discipline
 * 13 of 17 outcomes displayed statistically significant negative (undesirable results). 
 * For no outcome was there a benefit of spanking.
 * Only 1 study showed a statistically significant benefit of spanking.
+:::
 
 ## Meta-Analytic Results
 
@@ -125,11 +129,11 @@ Joan Lipuscek has written a [really nice blog post thinking through some of the 
 * Over 100 mentions in English language news media.
 * University of Michigan News indicates that the press release from UM News received "more than 100 hits in Spanish, 60 in Chinese, 43 in Portuguese and 23 in India."
 
-## Impact
+## Impact {.incremental}
 
 * Policy Statement by *American Academy of Pediatrics*
 * Policy Statement by *American Psychological Association*
-More recent work has resulted in oral testimony by colleague before *First Commission of the Congress of Colombia*
+* More recent work has resulted in oral testimony by colleague before *First Commission of the Congress of Colombia*
 
 ## Global Research on Corporal Punishment
 
@@ -357,17 +361,19 @@ plot_geo(cpbans) %>%
 
 ```
 
-## What Can Parents Do? {.smaller}
+## What Can Parents Do? {.smaller .incremental}
 
+::: {.incremental}
 * Parenting is a "long game," rather than a "short game". Growing rigorous evidence that ongoing love and support are the strongest shapers of positive behavior.
 * Well studied in the U.S.
 * Growing attention in global research.
-* "Catch children being good". Praise
+* "Catch children being good". Praise.
 * Age appropriate removal of privileges.
 * Spend time with children.
 * Let children know you love them.
 * Listen to children. Think about where children are in terms of their developmental tasks.
 * [https://resourcecentre.savethechildren.net/library/positive-discipline-everyday-parenting-pdep-fourth-edition](https://resourcecentre.savethechildren.net/library/positive-discipline-everyday-parenting-pdep-fourth-edition) 
+:::
 
 ## Questions? {.center background-color="#00274C"}
 
