@@ -69,6 +69,7 @@ Nadine Block, Center for Effective Discipline
 ## Meta-Analysis of 50 Years of Research on Corporal Punishment {.smaller .incremental}
 
 ::: {.incremental}
+* @Gershoff2016
 * Study of studies
 * We screened 1,574 articles
 * 50 years of research
@@ -135,7 +136,7 @@ Joan Lipuscek has written a [really nice blog post thinking through some of the 
 * Policy Statement by *American Psychological Association*
 * More recent work has resulted in oral testimony by colleague before *First Commission of the Congress of Colombia*
 
-## Global Research on Corporal Punishment
+## Global Research on Corporal Punishment {.smaller}
 
 ```{r}
 #| eval: true
@@ -235,6 +236,8 @@ leaflet() %>%
                                                   bringToFront = TRUE)) 
 
 ```
+
+e.g. @Pace2019, @Ward2022LCA, @Ward2023
 
 ## A Cascade of Bans on Corporal Punishment
 
@@ -361,6 +364,7 @@ plot_geo(cpbans) %>%
 
 ```
 
+
 ## What Can Parents Do? {.smaller .incremental}
 
 ::: {.incremental}
@@ -377,7 +381,7 @@ plot_geo(cpbans) %>%
 
 ## Questions? {.center background-color="#00274C"}
 
-
+## References
 
 
 
