@@ -23,6 +23,8 @@ format:
     view-distance: 10
     mobile-view-distance: 10
     css: toward-childhoods-free-from-violence.css
+  pptx:
+    toc: false
 bibliography: toward-childhoods-free-from-violence.bib
 csl: apa.csl
 from: markdown+emoji
