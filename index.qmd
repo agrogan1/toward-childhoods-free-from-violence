@@ -37,7 +37,7 @@ from: markdown+emoji
 * Professor Liz Gershoff
 * Professor Emerita Joan Durant
 * Nadine Block
-* Professors Jorge Cuartas
+* Professor Jorge Cuartas
 * Professor Dana McCoy 
 
 ## What This Talk Is About {.leftjustify}
